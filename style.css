@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(197, 214, 237);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menue ul{
+    display: flex;
+}
+.item{
+    list-style-type: none;
+    padding: 20px;
+}
+.item a{
+    text-decoration: none;
+}
